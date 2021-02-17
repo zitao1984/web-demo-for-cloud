@@ -56,12 +56,12 @@ li{
     .container-home {
         width: 100%;
         flex-direction: column;
-        margin:5em 0 1em 0;
+        margin:2em 0 1em 0;
 
     }
     #avatar{
         margin: auto;
-        padding: 1em;
+        padding: 0;
     }
     .title i {
         transform:rotate(90deg);
