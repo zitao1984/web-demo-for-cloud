@@ -1,0 +1,48 @@
+
+/*css for contac page*/
+.contact-box{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content:space-around;
+
+}
+
+.contact-box > div {
+    margin: 2vw;
+    background-color: #66AAE3;
+    font-family: sans-serif;
+}
+.contact-box > div >p{
+    text-align: center;
+    font-size: 1.5vw;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+.contact-box>div:first-child{
+    background-color: #6669E3;
+}
+
+.contact-box>div:nth-child(4){
+    background-color: #6669E3;
+}
+
+.contact-box>div:hover{
+    transform: scaleY(1.5);
+    background-color: #7DA0FA;
+    transition: 0.5s;
+}
+
+.contact-box>div>p>a{
+    text-decoration: none;
+    color:black;
+}
+
+@media only screen and (max-width: 700px) {
+    .contact-box {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+}

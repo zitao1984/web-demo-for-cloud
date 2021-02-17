@@ -1,0 +1,16 @@
+/*css for more page*/
+#more-bio{
+    padding: 0 30% 0 30%;
+
+}
+#more-bio>ul {
+    text-align: center;
+    font-family:Arial sans-serif;
+    font-weight: bold;
+}
+
+#more-bio>ul>li {
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+}
